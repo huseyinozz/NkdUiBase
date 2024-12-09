@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		744402C42D06C299006DD909 /* ButtonExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744402C32D06C299006DD909 /* ButtonExamplesView.swift */; };
 		7CA93FB027BEAE617EE0A45B /* Pods_NkdUiBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D608ADDCB4C75AABF68543A /* Pods_NkdUiBase_Tests.framework */; };
 		E98DB575896847D10441A926 /* Pods_NkdUiBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5205F265CBD1DB458508B228 /* Pods_NkdUiBase_Example.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		1263E36DE71AA431CB5D4575 /* Pods-NkdUiBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NkdUiBase_Example.release.xcconfig"; path = "Target Support Files/Pods-NkdUiBase_Example/Pods-NkdUiBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		186CA64F6D62A5885B28888F /* Pods-NkdUiBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NkdUiBase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NkdUiBase_Tests/Pods-NkdUiBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A0BB10478353BBA02C36876 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A0BB10478353BBA02C36876 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5205F265CBD1DB458508B228 /* Pods_NkdUiBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NkdUiBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D608ADDCB4C75AABF68543A /* Pods_NkdUiBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NkdUiBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NkdUiBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NkdUiBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +44,9 @@
 		607FACE51AFB9204008FA782 /* NkdUiBase_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NkdUiBase_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		ADF92003440A1DDD2C3E717B /* NkdUiBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NkdUiBase.podspec; path = ../NkdUiBase.podspec; sourceTree = "<group>"; };
-		B4236F5F8901F3AAF694224E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		744402C32D06C299006DD909 /* ButtonExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExamplesView.swift; sourceTree = "<group>"; };
+		ADF92003440A1DDD2C3E717B /* NkdUiBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NkdUiBase.podspec; path = ../NkdUiBase.podspec; sourceTree = "<group>"; };
+		B4236F5F8901F3AAF694224E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC7421F006C90807C6271AC8 /* Pods-NkdUiBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NkdUiBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-NkdUiBase_Tests/Pods-NkdUiBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E305666A48924BD332E1F1A9 /* Pods-NkdUiBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NkdUiBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-NkdUiBase_Example/Pods-NkdUiBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for NkdUiBase */ = {
 			isa = PBXGroup;
 			children = (
+				744402C52D06C29D006DD909 /* SwiftUIFiles */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,8 +150,15 @@
 				186CA64F6D62A5885B28888F /* Pods-NkdUiBase_Tests.debug.xcconfig */,
 				CC7421F006C90807C6271AC8 /* Pods-NkdUiBase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		744402C52D06C29D006DD909 /* SwiftUIFiles */ = {
+			isa = PBXGroup;
+			children = (
+				744402C32D06C299006DD909 /* ButtonExamplesView.swift */,
+			);
+			path = SwiftUIFiles;
 			sourceTree = "<group>";
 		};
 		92761A05A3B224CF4101C653 /* Frameworks */ = {
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				744402C42D06C299006DD909 /* ButtonExamplesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
