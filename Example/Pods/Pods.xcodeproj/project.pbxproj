@@ -11,8 +11,7 @@
 		3816492C59950D0E1F9238C167A0E69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		626206F18C5A3C45125EDA654200A634 /* NkdUiBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435B63977C32F9836F253480A77BACAC /* NkdUiBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		629520CEBF547CD4EC3C42350123BD93 /* Pods-NkdUiBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4954DBD507000F56141D49ECCB1F7300 /* Pods-NkdUiBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AFB887C5FE185C9FE414F4D247CA40B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78162D69B4FB1EE054A1D96AFBC2508 /* ReplaceMe.swift */; };
-		744402C82D06C3BB006DD909 /* NeoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744402C72D06C3BB006DD909 /* NeoButton.swift */; };
+		744402FD2D0708CA006DD909 /* NkdUiBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744402FC2D0708CA006DD909 /* NkdUiBase.swift */; };
 		884897B379D1FCCAC4A73B9300773236 /* Pods-NkdUiBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCFFEDBD0E1F3F751F0601C90FBCFD /* Pods-NkdUiBase_Tests-dummy.m */; };
 		8937CC3978F4A8529181852445770285 /* NkdUiBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 354866F774DE3E7748FE6E03D202A91F /* NkdUiBase-dummy.m */; };
 		9038DB5AF7A78F6E9CD172B04D722956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
@@ -51,7 +50,7 @@
 		4954DBD507000F56141D49ECCB1F7300 /* Pods-NkdUiBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NkdUiBase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5FEBA422A950CFAAD189317B02DA2A5A /* NkdUiBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NkdUiBase-prefix.pch"; sourceTree = "<group>"; };
 		71CA625AB49F7A408E5509E1E314F2DD /* Pods-NkdUiBase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NkdUiBase_Tests-Info.plist"; sourceTree = "<group>"; };
-		744402C72D06C3BB006DD909 /* NeoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoButton.swift; sourceTree = "<group>"; };
+		744402FC2D0708CA006DD909 /* NkdUiBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NkdUiBase.swift; sourceTree = "<group>"; };
 		82BA7F194ED43B8DFA4FF7593ACF90A5 /* Pods-NkdUiBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NkdUiBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82E7AFDC55655A036FF223A22A14C55C /* Pods-NkdUiBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NkdUiBase_Tests.modulemap"; sourceTree = "<group>"; };
 		9B9379E9EF47ABA8AF97BE3A2D733922 /* Pods-NkdUiBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NkdUiBase_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 		C15C846909C8E044ED27574DE0E37F8B /* NkdUiBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NkdUiBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3724ED070AF71BAADDA08997EE8F902 /* Pods-NkdUiBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NkdUiBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3E9ABD9920CBD84F7178CA688815153 /* NkdUiBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NkdUiBase.modulemap; sourceTree = "<group>"; };
-		D78162D69B4FB1EE054A1D96AFBC2508 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NkdUiBase/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D890737262F4E5CF53F7ED1FA264D744 /* NkdUiBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NkdUiBase-Info.plist"; sourceTree = "<group>"; };
 		D8C25EB9753732A20674A906BAD5119A /* Pods-NkdUiBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NkdUiBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA80D205F7E4945790933C43458A29F4 /* NkdUiBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NkdUiBase.release.xcconfig; sourceTree = "<group>"; };
@@ -103,10 +101,9 @@
 		013AE03B0D73FB9FC537E07B1717A815 /* NkdUiBase */ = {
 			isa = PBXGroup;
 			children = (
-				D78162D69B4FB1EE054A1D96AFBC2508 /* ReplaceMe.swift */,
+				744402FB2D0708A0006DD909 /* Classes */,
 				6A7FA0B2288A7C688D9F5C268D4B345A /* Pod */,
 				4EDCCFD4550E5A23338E5D5E031811A6 /* Support Files */,
-				744402C72D06C3BB006DD909 /* NeoButton.swift */,
 			);
 			name = NkdUiBase;
 			path = ../..;
@@ -168,6 +165,14 @@
 				19ECB387BAA2B35498173AFBB8290C0B /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		744402FB2D0708A0006DD909 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				744402FC2D0708CA006DD909 /* NkdUiBase.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		80892724331277569E8FF18838E2F0DB /* Development Pods */ = {
@@ -315,7 +320,7 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -365,8 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8937CC3978F4A8529181852445770285 /* NkdUiBase-dummy.m in Sources */,
-				744402C82D06C3BB006DD909 /* NeoButton.swift in Sources */,
-				6AFB887C5FE185C9FE414F4D247CA40B /* ReplaceMe.swift in Sources */,
+				744402FD2D0708CA006DD909 /* NkdUiBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,7 +769,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
