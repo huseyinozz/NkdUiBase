@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'NkdUiBase/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   s.swift_version = '5.0'
   
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   #   'NkdUiBase' => ['NkdUiBase/Assets/*.png']
   # }
 
-  # s.public_header_files = 'NkdUiBase/Classes/**/*.h'
+  # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
