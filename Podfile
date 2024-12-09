@@ -14,7 +14,7 @@ target 'Pods-NkdUiBase_Example' do
   use_frameworks!
 
   # Pods for Pods-NkdUiBase_Example
-pod 'NkdUiBase', :path => '/path/to/NkdUiBase'
+pod 'NkdUiBase'
 
 end
 
