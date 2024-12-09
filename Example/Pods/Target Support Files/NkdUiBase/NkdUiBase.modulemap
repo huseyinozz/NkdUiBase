@@ -1,0 +1,6 @@
+framework module NkdUiBase {
+  umbrella header "NkdUiBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

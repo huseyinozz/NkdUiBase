@@ -1,0 +1,22 @@
+{
+  "name": "NkdUiBase",
+  "version": "0.1.0",
+  "summary": "A short description of NkdUiBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hüseyin Öz/NkdUiBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hüseyin Öz": "ceng.huseyinoz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Hüseyin Öz/NkdUiBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NkdUiBase/Classes/**/*"
+}
