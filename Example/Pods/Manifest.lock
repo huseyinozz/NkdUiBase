@@ -1,5 +1,5 @@
 PODS:
-  - NkdUiBase (0.1.0)
+  - NkdUiBase (0.2.0)
 
 DEPENDENCIES:
   - NkdUiBase (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NkdUiBase: 9ded74753e97f98581aaf2e5179e7fe975dcc444
+  NkdUiBase: 5aaf4a891a9b8536a89d0026c043c4e7e405f463
 
-PODFILE CHECKSUM: 6d8da0171b377d7ee0d257f5d4537b8cf9ea5ae7
+PODFILE CHECKSUM: a48d4b4a14ff04a2b9f4d8233d8c23e4bb9ad1a4
 
 COCOAPODS: 1.16.2

@@ -1,9 +1,9 @@
 {
   "name": "NkdUiBase",
-  "version": "0.1.0",
-  "summary": "A short description of NkdUiBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Hüseyin Öz/NkdUiBase",
+  "version": "0.2.0",
+  "summary": "Reusable Swift UI Components for iOS projects. Copyright (c) 2024 NeoKod Arge Yazılım.",
+  "description": "'Reusable Swift UI Components for iOS projects. Copyright (c) 2024 NeoKod Arge Yazılım.\n  Reusable Swift UI Components for iOS projects. Copyright (c) 2024 NeoKod Arge Yazılım.\n    Reusable Swift UI Components for iOS projects. Copyright (c) 2024 NeoKod Arge Yazılım.'",
+  "homepage": "https://github.com/huseyinozz/NkdUiBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Hüseyin Öz": "ceng.huseyinoz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Hüseyin Öz/NkdUiBase.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/huseyinozz/NkdUiBase.git",
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "NkdUiBase/Classes/**/*"
+  "source_files": "NkdUiBase/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

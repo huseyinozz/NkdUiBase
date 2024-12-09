@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NkdUiBase'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Reusable Swift UI Components for iOS projects. Copyright (c) 2024 NeoKod Arge Yazılım. '
 
 # This description is used to generate tags and improve search results.
